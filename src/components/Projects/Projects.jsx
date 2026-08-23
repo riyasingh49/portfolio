@@ -8,6 +8,7 @@ import Portfolio from "../../assets/portfolio.webp";
 import Air from "../../assets/air.webp";
 import MazeGame from "../../assets/maze-game.webp";
 import HostelAttendance from "../../assets/hostel-facial-attendance-system.webp";
+import Chatbot from "../../assets/Chatbot.png"
 
 const INITIAL_PROJECT_COUNT = 6;
 const GITHUB_PROFILE_URL = "https://github.com/riyasingh49";
@@ -47,6 +48,13 @@ const projectItems = [
     description:
       "A responsive personal portfolio showcasing projects, skills, certifications, experience, and contact details in a clean dark theme.",
     url: "https://riyasingh49.github.io/Portfolio/",
+  },
+  {
+    image: Chatbot,
+    title: "AI Portfolio Chatbot",
+    description: 
+    "A personal AI chatbot that answers questions about me using Retrieval-Augmented Generation (RAG) — built with Next.js, Supabase (pgvector), and Groq, with real-time streaming, multi-thread conversations, and full authentication.",
+    url: "https://ai-portfolio-chatbot-65kk.vercel.app",
   },
   {
     image: MazeGame,
